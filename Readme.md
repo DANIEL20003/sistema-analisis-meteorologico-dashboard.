@@ -1,4 +1,3 @@
-Aquí tienes el contenido para el archivo README.md con un formato estrictamente profesional, sin elementos gráficos ni decorativos, optimizado para una presentación técnica de ingeniería.
 
 Sistema de Analisis y Dashboard Meteorologico
 Descripcion del Proyecto
