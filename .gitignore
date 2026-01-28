@@ -1,0 +1,13 @@
+backup_pre_push.zip
+test_conexion.php
+*.csv
+uploads/
+
+*.sql
+database.php
+config/database.php
+ 
+
+.DS_Store
+thumbs.db
+*.log

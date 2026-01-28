@@ -1,0 +1,638 @@
+<!-- Contenedor del Manual con estilos integrados -->
+<div class="manual-content">
+    <style>
+        .manual-content {
+            color: rgba(255, 255, 255, 0.9);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+        }
+
+        .manual-content .info-text {
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 1.7;
+        }
+
+        .manual-content .highlight-text {
+            color: #00ffff;
+            font-weight: 600;
+        }
+
+        .manual-content h4 {
+            margin-top: 1.5rem;
+        }
+
+        .manual-content h5 {
+            margin-top: 1rem;
+        }
+
+        .manual-content table {
+            font-size: 0.85rem;
+        }
+
+        .manual-content code {
+            background: rgba(0, 255, 255, 0.1);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            color: #00ffff;
+            font-size: 0.9em;
+        }
+
+        .manual-content strong {
+            font-weight: 600;
+        }
+    </style>
+
+    <!-- DESCRIPCIÓN GENERAL DEL SISTEMA -->
+    <div style="margin-bottom: 2rem;">
+        <h4
+            style="color: var(--neon-cyan); font-size: 1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-info-circle"></i>
+            Descripción General del Sistema
+        </h4>
+        <p class="info-text">
+            El Sistema de Análisis Meteorológico es una plataforma web profesional diseñada para la gestión,
+            visualización y
+            análisis de datos meteorológicos provenientes de la <span class="highlight-text">Red GEAA</span> de
+            estaciones
+            meteorológicas.
+            El sistema permite monitorear en tiempo real las condiciones atmosféricas, analizar tendencias históricas y
+            generar reportes especializados para el desarrollo de proyectos de energías renovables en la provincia de
+            Chimborazo.
+        </p>
+    </div>
+
+    <!-- SECCIONES DEL SISTEMA -->
+    <div style="margin-bottom: 2rem;">
+        <h4
+            style="color: var(--neon-cyan); font-size: 1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-sitemap"></i>
+            Secciones del Sistema
+        </h4>
+
+        <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin-top: 1rem;">
+            <!-- Inicio -->
+            <div
+                style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(0, 255, 255, 0.2); border-radius: 10px; padding: 1rem;">
+                <h5
+                    style="color: #00ffff; font-size: 0.9rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-home"></i>
+                    Inicio
+                </h5>
+                <p style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; line-height: 1.5;">
+                    Página principal con información del proyecto IDIPI-298, objetivos, instituciones participantes,
+                    fotografías y mapas de las estaciones meteorológicas.
+                </p>
+            </div>
+
+            <!-- Geoportal -->
+            <div
+                style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(0, 255, 255, 0.2); border-radius: 10px; padding: 1rem;">
+                <h5
+                    style="color: #00ffff; font-size: 0.9rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-globe-americas"></i>
+                    Geoportal
+                </h5>
+                <p style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; line-height: 1.5;">
+                    Visualización geoespacial de la red de estaciones meteorológicas en un mapa interactivo con
+                    marcadores
+                    geo-localizados que permiten consultar información detallada de cada estación.
+                </p>
+            </div>
+
+            <!-- Datos -->
+            <div
+                style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(0, 255, 255, 0.2); border-radius: 10px; padding: 1rem;">
+                <h5
+                    style="color: #00ffff; font-size: 0.9rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-database"></i>
+                    Datos
+                </h5>
+                <p style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; line-height: 1.5;">
+                    Consulta y descarga de datos meteorológicos históricos por estación. Permite filtrar por fecha y
+                    descargar datasets en formato CSV para análisis externos.
+                </p>
+            </div>
+
+            <!-- Dashboard -->
+            <div
+                style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(0, 255, 255, 0.2); border-radius: 10px; padding: 1rem;">
+                <h5
+                    style="color: #00ffff; font-size: 0.9rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-chart-line"></i>
+                    Dashboard
+                </h5>
+                <p style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; line-height: 1.5;">
+                    Panel de visualización avanzado con gráficos interactivos de series temporales, distribuciones
+                    estadísticas, rosas de viento, climogramas y mapas de calor para análisis detallado de variables
+                    meteorológicas.
+                </p>
+            </div>
+
+            <!-- Tiempo Real -->
+            <div
+                style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(0, 255, 255, 0.2); border-radius: 10px; padding: 1rem;">
+                <h5
+                    style="color: #00ffff; font-size: 0.9rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-satellite-dish"></i>
+                    Tiempo Real
+                </h5>
+                <p style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; line-height: 1.5;">
+                    Monitoreo en vivo de las condiciones meteorológicas actuales de todas las estaciones activas, con
+                    indicadores visuales y actualización automática de datos.
+                </p>
+            </div>
+
+            <!-- Mapas -->
+            <div
+                style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(0, 255, 255, 0.2); border-radius: 10px; padding: 1rem;">
+                <h5
+                    style="color: #00ffff; font-size: 0.9rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-map-marked-alt"></i>
+                    Mapas
+                </h5>
+                <p style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; line-height: 1.5;">
+                    Visualización de mapas temáticos y cartografía especializada de las estaciones meteorológicas,
+                    incluyendo mapas de ubicación geográfica y zonificación.
+                </p>
+            </div>
+
+            <!-- Sensores -->
+            <div
+                style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(0, 255, 255, 0.2); border-radius: 10px; padding: 1rem;">
+                <h5
+                    style="color: #00ffff; font-size: 0.9rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-gauge"></i>
+                    Sensores
+                </h5>
+                <p style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; line-height: 1.5;">
+                    Información detallada sobre los componentes, sensores y equipamiento instalado en cada estación
+                    meteorológica, incluyendo especificaciones técnicas y estado operativo.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CÓMO VISUALIZAR DATOS -->
+    <div style="margin-bottom: 2rem;">
+        <h4
+            style="color: var(--neon-cyan); font-size: 1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-eye"></i>
+            Cómo Visualizar Datos
+        </h4>
+
+        <div
+            style="background: rgba(255, 255, 255, 0.05); border-left: 4px solid var(--neon-cyan); padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+            <h5 style="color: #00ff88; font-size: 0.85rem; margin-bottom: 0.8rem;">
+                <i class="fas fa-chart-bar"></i> Dashboard de Visualización
+            </h5>
+            <ol
+                style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; padding-left: 1.5rem; line-height: 1.6;">
+                <li style="margin-bottom: 0.5rem;">Acceda a la sección <strong
+                        style="color: #00ffff;">Dashboard</strong>
+                    desde el menú de navegación principal.</li>
+                <li style="margin-bottom: 0.5rem;">Seleccione la estación meteorológica de su interés desde el selector
+                    desplegable.</li>
+                <li style="margin-bottom: 0.5rem;">Defina el rango de fechas para el análisis utilizando los selectores
+                    de
+                    fecha inicial y fecha final.</li>
+                <li style="margin-bottom: 0.5rem;">El sistema generará automáticamente gráficos interactivos con datos
+                    de
+                    temperatura, humedad, presión, radiación solar y viento.</li>
+                <li style="margin-bottom: 0.5rem;">Utilice las herramientas de zoom, panorámica y selección para
+                    analizar
+                    períodos específicos.</li>
+                <li>Descargue gráficos individuales en formato PNG mediante el botón de descarga en cada visualización.
+                </li>
+            </ol>
+        </div>
+
+        <div
+            style="background: rgba(255, 255, 255, 0.05); border-left: 4px solid var(--neon-cyan); padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+            <h5 style="color: #00ff88; font-size: 0.85rem; margin-bottom: 0.8rem;">
+                <i class="fas fa-download"></i> Descarga de Datos
+            </h5>
+            <ol
+                style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; padding-left: 1.5rem; line-height: 1.6;">
+                <li style="margin-bottom: 0.5rem;">Acceda a la sección <strong style="color: #00ffff;">Datos</strong>
+                    desde
+                    el menú principal.</li>
+                <li style="margin-bottom: 0.5rem;">Seleccione la estación meteorológica de interés.</li>
+                <li style="margin-bottom: 0.5rem;">Configure el rango de fechas para la extracción de datos.</li>
+                <li style="margin-bottom: 0.5rem;">Haga clic en el botón "Descargar CSV" para obtener el archivo de
+                    datos.
+                </li>
+                <li>El archivo CSV descargado contiene todas las variables meteorológicas registradas en el período
+                    seleccionado.</li>
+            </ol>
+        </div>
+
+        <div
+            style="background: rgba(255, 255, 255, 0.05); border-left: 4px solid var(--neon-cyan); padding: 1rem; border-radius: 8px;">
+            <h5 style="color: #00ff88; font-size: 0.85rem; margin-bottom: 0.8rem;">
+                <i class="fas fa-satellite-dish"></i> Monitoreo en Tiempo Real
+            </h5>
+            <ol
+                style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; padding-left: 1.5rem; line-height: 1.6;">
+                <li style="margin-bottom: 0.5rem;">Acceda a la sección <strong style="color: #00ffff;">Tiempo
+                        Real</strong>
+                    para ver las condiciones meteorológicas actuales.</li>
+                <li style="margin-bottom: 0.5rem;">Visualice tarjetas informativas con los últimos registros de cada
+                    estación activa.</li>
+                <li>Los datos se actualizan automáticamente según la frecuencia de transmisión de cada estación.</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- UMBRALES DE VALIDACIÓN -->
+    <div style="margin-bottom: 2rem;">
+        <h4
+            style="color: var(--neon-cyan); font-size: 1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-sliders-h"></i>
+            Umbrales de Validación de Datos
+        </h4>
+
+        <p class="info-text" style="margin-bottom: 1rem;">
+            El sistema implementa un proceso de limpieza y validación automática de datos mediante umbrales técnicos que
+            garantizan la calidad y consistencia de la información meteorológica.
+            Los valores que se encuentren fuera de estos rangos son marcados como NULL durante el procesamiento y no se
+            incluyen en los análisis.
+        </p>
+
+        <div style="overflow-x: auto;">
+            <table
+                style="width: 100%; border-collapse: collapse; background: rgba(255, 255, 255, 0.03); border-radius: 10px; overflow: hidden;">
+                <thead>
+                    <tr style="background: rgba(0, 255, 255, 0.1);">
+                        <th
+                            style="padding: 0.8rem; text-align: left; color: #00ffff; font-size: 0.8rem; font-weight: 700; border-bottom: 2px solid rgba(0, 255, 255, 0.3);">
+                            <i class="fas fa-thermometer-half"></i> Variable
+                        </th>
+                        <th
+                            style="padding: 0.8rem; text-align: center; color: #00ffff; font-size: 0.8rem; font-weight: 700; border-bottom: 2px solid rgba(0, 255, 255, 0.3);">
+                            <i class="fas fa-arrow-down"></i> Valor Mínimo
+                        </th>
+                        <th
+                            style="padding: 0.8rem; text-align: center; color: #00ffff; font-size: 0.8rem; font-weight: 700; border-bottom: 2px solid rgba(0, 255, 255, 0.3);">
+                            <i class="fas fa-arrow-up"></i> Valor Máximo
+                        </th>
+                        <th
+                            style="padding: 0.8rem; text-align: center; color: #00ffff; font-size: 0.8rem; font-weight: 700; border-bottom: 2px solid rgba(0, 255, 255, 0.3);">
+                            <i class="fas fa-ruler"></i> Unidad
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+                        <td
+                            style="padding: 0.8rem; color: rgba(255, 255, 255, 0.9); font-size: 0.75rem; font-weight: 600;">
+                            Temperatura
+                        </td>
+                        <td
+                            style="padding: 0.8rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.75rem;">
+                            -80.0
+                        </td>
+                        <td
+                            style="padding: 0.8rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.75rem;">
+                            60.0
+                        </td>
+                        <td style="padding: 0.8rem; text-align: center; color: #00ff88; font-size: 0.75rem;">
+                            °C
+                        </td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+                        <td
+                            style="padding: 0.8rem; color: rgba(255, 255, 255, 0.9); font-size: 0.75rem; font-weight: 600;">
+                            Humedad Relativa
+                        </td>
+                        <td
+                            style="padding: 0.8rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.75rem;">
+                            0.0
+                        </td>
+                        <td
+                            style="padding: 0.8rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.75rem;">
+                            100.0
+                        </td>
+                        <td style="padding: 0.8rem; text-align: center; color: #00ff88; font-size: 0.75rem;">
+                            %
+                        </td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+                        <td
+                            style="padding: 0.8rem; color: rgba(255, 255, 255, 0.9); font-size: 0.75rem; font-weight: 600;">
+                            Presión Atmosférica
+                        </td>
+                        <td
+                            style="padding: 0.8rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.75rem;">
+                            500.0
+                        </td>
+                        <td
+                            style="padding: 0.8rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.75rem;">
+                            1080.0
+                        </td>
+                        <td style="padding: 0.8rem; text-align: center; color: #00ff88; font-size: 0.75rem;">
+                            hPa
+                        </td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+                        <td
+                            style="padding: 0.8rem; color: rgba(255, 255, 255, 0.9); font-size: 0.75rem; font-weight: 600;">
+                            Radiación Solar
+                        </td>
+                        <td
+                            style="padding: 0.8rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.75rem;">
+                            0.0
+                        </td>
+                        <td
+                            style="padding: 0.8rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.75rem;">
+                            1373.0
+                        </td>
+                        <td style="padding: 0.8rem; text-align: center; color: #00ff88; font-size: 0.75rem;">
+                            W/m²
+                        </td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+                        <td
+                            style="padding: 0.8rem; color: rgba(255, 255, 255, 0.9); font-size: 0.75rem; font-weight: 600;">
+                            Velocidad del Viento
+                        </td>
+                        <td
+                            style="padding: 0.8rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.75rem;">
+                            0.0
+                        </td>
+                        <td
+                            style="padding: 0.8rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.75rem;">
+                            75.0
+                        </td>
+                        <td style="padding: 0.8rem; text-align: center; color: #00ff88; font-size: 0.75rem;">
+                            m/s
+                        </td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="padding: 0.8rem; color: rgba(255, 255, 255, 0.9); font-size: 0.75rem; font-weight: 600;">
+                            Dirección del Viento
+                        </td>
+                        <td
+                            style="padding: 0.8rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.75rem;">
+                            0.0
+                        </td>
+                        <td
+                            style="padding: 0.8rem; text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 0.75rem;">
+                            360.0
+                        </td>
+                        <td style="padding: 0.8rem; text-align: center; color: #00ff88; font-size: 0.75rem;">
+                            grados
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- CÓMO CARGAR ARCHIVOS (ADMINISTRADORES) -->
+    <div style="margin-bottom: 2rem;">
+        <h4
+            style="color: var(--neon-cyan); font-size: 1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-upload"></i>
+            Cómo Cargar Archivos de Datos (Área Administrativa)
+        </h4>
+
+        <div
+            style="background: rgba(255, 165, 0, 0.1); border: 1px solid rgba(255, 165, 0, 0.3); border-radius: 10px; padding: 1rem; margin-bottom: 1.5rem;">
+            <p style="font-size: 0.8rem; color: #ff9500; margin: 0; display: flex; align-items: center; gap: 0.5rem;">
+                <i class="fas fa-exclamation-triangle"></i>
+                <strong>Nota:</strong> Esta funcionalidad está disponible únicamente para usuarios administradores. Debe
+                iniciar sesión con credenciales de administrador para acceder al módulo de carga de datos.
+            </p>
+        </div>
+
+        <div
+            style="background: rgba(255, 255, 255, 0.05); border-left: 4px solid var(--neon-cyan); padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem;">
+            <h5 style="color: #00ff88; font-size: 0.85rem; margin-bottom: 0.8rem;">
+                <i class="fas fa-file-csv"></i> Formato de Archivo Requerido
+            </h5>
+            <ul
+                style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; padding-left: 1.5rem; line-height: 1.6;">
+                <li style="margin-bottom: 0.5rem;"><strong style="color: #00ffff;">Formato permitido:</strong> Un único
+                    archivo CSV (.csv) o TXT (.txt) por carga.</li>
+                <li style="margin-bottom: 0.5rem;"><strong style="color: #00ffff;">Separador de campos:</strong> El
+                    sistema
+                    detecta automáticamente el separador (coma o punto y coma).</li>
+                <li style="margin-bottom: 0.5rem;"><strong style="color: #00ffff;">Estructura del archivo:</strong> Debe
+                    contener columnas de fecha, hora y variables meteorológicas.</li>
+                <li style="margin-bottom: 0.5rem;"><strong style="color: #00ffff;">Codificación:</strong> UTF-8
+                    recomendado
+                    para evitar problemas con caracteres especiales.</li>
+                <li><strong style="color: #00ffff;">Importante:</strong> NO cargue múltiples archivos simultáneamente.
+                    El
+                    sistema procesa un archivo a la vez.</li>
+            </ul>
+        </div>
+
+        <div
+            style="background: rgba(255, 255, 255, 0.05); border-left: 4px solid var(--neon-cyan); padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem;">
+            <h5 style="color: #00ff88; font-size: 0.85rem; margin-bottom: 0.8rem;">
+                <i class="fas fa-layer-group"></i> Niveles de Datos
+            </h5>
+            <p style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin-bottom: 0.8rem;">
+                El sistema maneja diferentes niveles de procesamiento de datos meteorológicos:
+            </p>
+            <ul
+                style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; padding-left: 1.5rem; line-height: 1.6;">
+                <li style="margin-bottom: 0.5rem;"><strong style="color: #00ffff;">Nivel L0:</strong> Datos crudos sin
+                    procesamiento, tal como son registrados por los sensores.</li>
+                <li style="margin-bottom: 0.5rem;"><strong style="color: #00ffff;">Nivel L1:</strong> Datos con
+                    correcciones
+                    básicas y conversión de unidades.</li>
+                <li><strong style="color: #00ffff;">Nivel L2:</strong> Datos procesados con validación de umbrales,
+                    limpieza
+                    de valores anómalos y promedios horarios.</li>
+            </ul>
+        </div>
+
+        <div
+            style="background: rgba(255, 165, 0, 0.1); border: 1px solid rgba(255, 165, 0, 0.3); border-radius: 10px; padding: 1rem; margin-bottom: 1.5rem;">
+            <h5
+                style="color: #ff9500; font-size: 0.85rem; margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                <i class="fas fa-info-circle"></i> Prerequisitos y Orden de Ingreso
+            </h5>
+            <p style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin-bottom: 0.8rem;">
+                <strong style="color: #ff9500;">IMPORTANTE:</strong> El sistema requiere un orden específico al
+                registrar elementos:
+            </p>
+            <ol
+                style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; padding-left: 1.5rem; line-height: 1.6;">
+                <li style="margin-bottom: 0.5rem;">
+                    <strong style="color: #00ffff;">1º - Registrar Estación Meteorológica:</strong>
+                    Primero debe crear la estación meteorológica con su ubicación, código y datos básicos.
+                </li>
+                <li style="margin-bottom: 0.5rem;">
+                    <strong style="color: #00ffff;">2º - Registrar Sensores y Componentes:</strong>
+                    Una vez creada la estación, puede agregar sensores y componentes asociados a ella.
+                </li>
+                <li style="margin-bottom: 0.5rem;">
+                    <strong style="color: #00ffff;">3º - Cargar Datos:</strong>
+                    Con la estación registrada, puede comenzar a cargar archivos de datos (L0, L1, L2).
+                </li>
+                <li>
+                    <strong style="color: #ff9500;">Nota:</strong> NO es necesario tener sensores registrados antes de
+                    cargar datos.
+                    Los sensores son opcionales y sirven para documentar el equipamiento instalado en cada estación.
+                </li>
+            </ol>
+        </div>
+
+        <div
+            style="background: rgba(255, 255, 255, 0.05); border-left: 4px solid var(--neon-cyan); padding: 1rem; border-radius: 8px;">
+            <h5 style="color: #00ff88; font-size: 0.85rem; margin-bottom: 0.8rem;">
+                <i class="fas fa-clipboard-check"></i> Proceso de Carga
+            </h5>
+            <ol
+                style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin: 0; padding-left: 1.5rem; line-height: 1.6;">
+                <li style="margin-bottom: 0.5rem;">Inicie sesión con credenciales de administrador haciendo clic en el
+                    botón
+                    "Administrar" del menú.</li>
+                <li style="margin-bottom: 0.5rem;">Acceda al módulo "Cargar Datos" desde el panel de administración.
+                </li>
+                <li style="margin-bottom: 0.5rem;">Seleccione el nivel de datos adecuado (L0, L1 o L2) según el tipo de
+                    archivo que va a cargar.</li>
+                <li style="margin-bottom: 0.5rem;">Seleccione la estación meteorológica correspondiente al archivo de
+                    datos.
+                </li>
+                <li style="margin-bottom: 0.5rem;">Arrastre y suelte el archivo CSV/TXT en la zona de carga o haga clic
+                    para
+                    seleccionarlo desde su equipo.</li>
+                <li style="margin-bottom: 0.5rem;">Verifique que aparezca el nombre del archivo y su tamaño antes de
+                    proceder.</li>
+                <li style="margin-bottom: 0.5rem;">Haga clic en "Procesar y Cargar Datos" para iniciar el proceso de
+                    validación e importación.</li>
+                <li style="margin-bottom: 0.5rem;">El sistema realizará automáticamente: detección de columnas,
+                    validación
+                    de umbrales, limpieza de datos y almacenamiento en la base de datos.</li>
+                <li>Espere la confirmación de carga exitosa con el resumen de registros procesados.</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- ADVERTENCIAS IMPORTANTES -->
+    <div style="margin-bottom: 1.5rem;">
+        <h4
+            style="color: var(--neon-cyan); font-size: 1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-shield-alt"></i>
+            Advertencias Importantes
+        </h4>
+
+        <div style="display: grid; gap: 1rem;">
+            <div
+                style="background: rgba(255, 7, 58, 0.1); border: 1px solid rgba(255, 7, 58, 0.3); border-radius: 10px; padding: 1rem;">
+                <p
+                    style="font-size: 0.75rem; color: #ff073a; margin: 0; display: flex; align-items: start; gap: 0.5rem; line-height: 1.5;">
+                    <i class="fas fa-exclamation-circle" style="margin-top: 0.2rem; flex-shrink: 0;"></i>
+                    <span><strong>Carga de Múltiples Archivos:</strong> El sistema NO admite la carga simultánea de
+                        múltiples archivos. Debe cargar y procesar un archivo a la vez. Espere a que finalice el
+                        procesamiento antes de cargar el siguiente archivo.</span>
+                </p>
+            </div>
+
+            <div
+                style="background: rgba(255, 165, 0, 0.1); border: 1px solid rgba(255, 165, 0, 0.3); border-radius: 10px; padding: 1rem;">
+                <p
+                    style="font-size: 0.75rem; color: #ff9500; margin: 0; display: flex; align-items: start; gap: 0.5rem; line-height: 1.5;">
+                    <i class="fas fa-database" style="margin-top: 0.2rem; flex-shrink: 0;"></i>
+                    <span><strong>Validación de Datos:</strong> Los valores que excedan los umbrales establecidos serán
+                        automáticamente marcados como NULL y no se incluirán en las visualizaciones ni análisis.
+                        Verifique
+                        la calidad de sus datos antes de la carga.</span>
+                </p>
+            </div>
+
+            <div
+                style="background: rgba(0, 255, 136, 0.1); border: 1px solid rgba(0, 255, 136, 0.3); border-radius: 10px; padding: 1rem;">
+                <p
+                    style="font-size: 0.75rem; color: #00ff88; margin: 0; display: flex; align-items: start; gap: 0.5rem; line-height: 1.5;">
+                    <i class="fas fa-check-circle" style="margin-top: 0.2rem; flex-shrink: 0;"></i>
+                    <span><strong>Archivo Único por Carga:</strong> Para mantener la integridad de los datos y facilitar
+                        la
+                        trazabilidad, cada carga debe corresponder a un único archivo CSV o TXT con datos coherentes de
+                        una
+                        sola estación.</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SOPORTE TÉCNICO -->
+    <div>
+        <h4
+            style="color: var(--neon-cyan); font-size: 1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-headset"></i>
+            Soporte Técnico
+        </h4>
+
+        <div
+            style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(0, 255, 255, 0.2); border-radius: 10px; padding: 1.2rem;">
+            <p style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.8); margin-bottom: 0.8rem; line-height: 1.6;">
+                Para asistencia técnica, consultas sobre el uso del sistema o reporte de problemas, contacte con el
+                equipo
+                del Grupo de Investigación en Energías Alternativas y Ambiente (GEAA) de la ESPOCH.
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-university" style="color: #00ffff; font-size: 1.2rem;"></i>
+                    <div>
+                        <p style="font-size: 0.7rem; color: rgba(255, 255, 255, 0.6); margin: 0;">Institución</p>
+                        <p style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.9); margin: 0; font-weight: 600;">
+                            ESPOCH -
+                            GEAA</p>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-project-diagram" style="color: #00ffff; font-size: 1.2rem;"></i>
+                    <div>
+                        <p style="font-size: 0.7rem; color: rgba(255, 255, 255, 0.6); margin: 0;">Proyecto</p>
+                        <p style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.9); margin: 0; font-weight: 600;">
+                            IDIPI-298</p>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-calendar-alt" style="color: #00ffff; font-size: 1.2rem;"></i>
+                    <div>
+                        <p style="font-size: 0.7rem; color: rgba(255, 255, 255, 0.6); margin: 0;">Vigencia</p>
+                        <p style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.9); margin: 0; font-weight: 600;">2023
+                            -
+                            2025</p>
+                    </div>
+                </div>
+                <!-- Email Contacto -->
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-envelope" style="color: #00ffff; font-size: 1.2rem;"></i>
+                    <div>
+                        <p style="font-size: 0.7rem; color: rgba(255, 255, 255, 0.6); margin: 0;">Contacto</p>
+                        <p style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.9); margin: 0; font-weight: 600;">
+                            estaciones.espoch@espoch.edu.ec
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- VIDEO GUIA -->
+    <div style="margin-bottom: 2rem;">
+        <h4
+            style="color: var(--neon-cyan); font-size: 1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-video"></i>
+            Video Guía de Uso
+        </h4>
+        <div
+            style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(0, 255, 255, 0.2); border-radius: 10px; padding: 1rem; text-align: center;">
+            <video controls
+                style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+                <source src="<?php echo (isset($ruta_base) ? $ruta_base : './'); ?>Manual_Sistema.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+    </div>
+</div>
+</div> <!-- Cierre contenedor manual-content -->

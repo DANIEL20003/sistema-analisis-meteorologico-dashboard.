@@ -1,0 +1,71 @@
+
+.hero-badge {
+    font-size: 0.70rem !important;
+    padding: var(--space-1) var(--space-3) !important;
+}
+
+/* Título principal "Caracterización de Condiciones..." */
+.hero-title {
+    font-size: 2rem !important;
+}
+
+/* Descripción del hero */
+.hero-description {
+    font-size: 1.1rem !important;
+}
+
+/* ===== AJUSTES RESPONSIVE ===== */
+
+/* Tablets y pantallas medianas */
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 1.75rem !important;
+    }
+    
+    .hero-description {
+        font-size: 1rem !important;
+    }
+}
+
+/* Móviles */
+@media (max-width: 768px) {
+    .hero-badge {
+        font-size: 1.5rem !important;
+    }
+    
+    .hero-title {
+        font-size: 1.15rem !important;
+    }
+    
+    .hero-description {
+        font-size: 0.95rem !important;
+    }
+}
+
+/* Móviles pequeños */
+@media (max-width: 480px) {
+    .hero-badge {
+        font-size: 1.25rem !important;
+        padding: 0.15rem 0.5rem !important;
+    }
+    
+    .hero-title {
+        font-size: 1rem !important;
+    }
+    
+    .hero-description {
+        font-size: 0.9rem !important;
+    }
+}
+
+/* ===== OTROS AJUSTES OPCIONALES ===== */
+
+/* Si quieres ajustar los iconos del hero visual */
+.visual-item i {
+    font-size: 1.75rem !important;
+}
+
+/* Si quieres ajustar los botones del hero */
+.hero-actions .btn {
+    font-size: 0.875rem !important;
+}
